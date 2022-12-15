@@ -6,4 +6,4 @@ jobs:
     with: 
       who-to-greet: Mickey
     secrets:
-      example-secret: "Mickey is a mouse and he loves it"
+      example-secret: "Mickey is a mouse and he loves it 2"
