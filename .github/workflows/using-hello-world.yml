@@ -3,3 +3,7 @@ on: push
 jobs:
   call-hello-world:
     uses: ontargetcomputing/github-actions-shared/.github/workflows/hello-world.yml@main
+    with: 
+      example-input: This is the input I got
+    secrets:
+      example-secret: This is the secret I got 
