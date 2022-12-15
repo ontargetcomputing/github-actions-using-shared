@@ -2,4 +2,4 @@ name: call-hello-world
 on: push
 jobs:
   call-hello-world:
-    uses: ontargetcomputing/github-actions-sharedontargetcomputing/.github/workflows/hello-world@main
+    uses: ontargetcomputing/github-actions-sharedontargetcomputing/.github/workflows/hello-world.yml@main
