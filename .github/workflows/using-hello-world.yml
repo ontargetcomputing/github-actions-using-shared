@@ -1,8 +1,5 @@
-name: hello-world
+name: call-hello-world
 on: push
 jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hello-World
-        run: echo "Hello World!"
+  call-hello-world:
+    uses: ontargetcomputing/github-actions-sharedontargetcomputing/.github/workflows/hello-world@main
