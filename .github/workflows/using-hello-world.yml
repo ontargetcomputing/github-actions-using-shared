@@ -6,4 +6,4 @@ jobs:
     with: 
       example-input: This is the input I got
     secrets:
-      example-secret: This is the secret I got 
+      example-secret: "This is the secret I got - probably won't see this"
