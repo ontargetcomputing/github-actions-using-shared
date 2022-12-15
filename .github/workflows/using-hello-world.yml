@@ -4,6 +4,6 @@ jobs:
   call-hello-world:
     uses: ontargetcomputing/github-actions-shared/.github/workflows/hello-world.yml@main
     with: 
-      example-input: This is the input I got
+      who-to-greet: Mickey
     secrets:
-      example-secret: "This is the secret I got - probably won't see this"
+      secret-phrase: "Mickey is a mouse"
