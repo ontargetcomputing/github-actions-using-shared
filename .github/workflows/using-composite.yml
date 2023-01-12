@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ontargetcomputing/github-actions-shared/.github/workflows/composite@main
+      - uses: actions/checkout@v3
+      - uses: ontargetcomputing/github-actions-shared/.github/actions/composite@main
         with: 
           name: OctoCat
       - name: foo
