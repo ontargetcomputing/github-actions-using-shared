@@ -4,6 +4,8 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: ontargetcomputing/github-actions-shared/.github/workflows/composite@main
-      with: 
-        name: OctoCat
+    # - uses: ontargetcomputing/github-actions-shared/.github/workflows/composite@main
+    #   with: 
+    #     name: OctoCat
+    - run:
+      shell: echo foo
