@@ -8,5 +8,6 @@ jobs:
       # - uses: ontargetcomputing/github-actions-shared/.github/workflows/composite@main
       #   with: 
       #     name: OctoCat
-      - run: |
+      - name: foo
+        run: |
         echo foo
