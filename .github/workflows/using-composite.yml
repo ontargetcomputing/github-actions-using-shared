@@ -8,6 +8,8 @@ jobs:
       - uses: ontargetcomputing/github-actions-shared/.github/actions/composite@main
         with: 
           name: OctoCat
+          access_key: ${{ secrets.AWS_ACCESS_KEY_ID_032802432428_DEV }}
+          secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_032802432428_DEV }}
       - name: foo
         run: |
           echo foo
