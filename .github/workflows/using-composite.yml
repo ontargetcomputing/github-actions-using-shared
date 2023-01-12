@@ -10,4 +10,4 @@ jobs:
       #     name: OctoCat
       - name: foo
         run: |
-        echo foo
+          echo foo
