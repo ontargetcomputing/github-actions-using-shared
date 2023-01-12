@@ -13,3 +13,6 @@ jobs:
       - name: foo
         run: |
           echo foo
+      - name: Try it here
+        run: |
+          aws s3 ls   
