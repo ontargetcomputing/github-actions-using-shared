@@ -13,7 +13,7 @@ jobs:
           secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_032802432428_DEV }}
       - name: Print it
         run: |
-          echo random-number ${{ steps.foobar.outputs }}
+          echo the my-output is  ${{ steps.foobar.outputs.my-output }}
       - name: foo
         run: |
           echo foo
