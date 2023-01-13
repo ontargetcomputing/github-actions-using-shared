@@ -6,10 +6,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ontargetcomputing/github-actions-shared/.github/actions/composite@main
+        id: foobar
         with: 
           name: OctoCat
           access_key: ${{ secrets.AWS_ACCESS_KEY_ID_032802432428_DEV }}
           secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_032802432428_DEV }}
+      - name: Print it
+        run: |
+          echo random-number ${{ steps.foobar.outputs }}
       - name: foo
         run: |
           echo foo
