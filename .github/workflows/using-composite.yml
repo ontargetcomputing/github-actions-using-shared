@@ -13,7 +13,7 @@ jobs:
           secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_032802432428_DEV }}
       - name: Print it
         run: |
-          echo the my-output is  ${{ steps.foobar.outputs.my-output }}
+          echo the my-output is  ${{ steps.foobar.outputs.account-id }}
       - name: foo
         run: |
           echo foo
